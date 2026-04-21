@@ -1,0 +1,3 @@
+const PROPERTIES = [];
+
+export { PROPERTIES };
