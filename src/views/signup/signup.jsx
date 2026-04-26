@@ -62,6 +62,47 @@ export default function Signup() {
             Sign up with Facebook
           </a>
 
+          {/* FORM */}
+          <form onSubmit={handleSubmit}>
+            <div className="divider">or</div>
+
+            <label>Name</label>
+            <input
+              type="text"
+              name="name"
+              className="input-field"
+              placeholder="Enter your name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+            />
+
+            <label>Email</label>
+            <input
+              type="email"
+              name="email"
+              className="input-field"
+              placeholder="Enter your email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+
+            <label>Password</label>
+            <input
+              type="password"
+              name="password"
+              className="input-field"
+              placeholder="Enter your password"
+              value={formData.password}
+              onChange={handleChange}
+              required
+            />
+
+            <button type="submit" className="login-btn">
+              Signup
+            </button>
+          </form>
         </div>
 
       </div>
