@@ -76,3 +76,24 @@ body {
 .icon {
   width: 20px;
 }
+
+
+/* RIGHT */
+.right {
+  width: 50%;
+  background: linear-gradient(135deg, #764ba2, #667eea);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-text {
+  text-align: center;
+}
+
+.divider {
+  text-align: center;
+  margin: 10px 0;
+  color: gray;
+}
